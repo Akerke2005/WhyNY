@@ -1,17 +1,43 @@
 body {
-    background-image: url('images/fudan.jpg'); /* Фудань университетінің суреті */
-    background-size: cover; /* Суретті экранға толық сыйғызу */
-    background-position: center; /* Ортаға қою */
-    background-attachment: fixed; /* Сайт төмен жылжығанда фон өзгермейді */
-    font-family: Arial, sans-serif; /* Кәсіби көріну үшін шрифт */
-    color: white; /* Ақ түсті мәтін */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('great-wall-of-china.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.7); /* Артқы фон қара түсті, мөлдірлігі 70% */
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px auto;
     padding: 20px;
+    max-width: 600px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
     text-align: center;
+    color: #333;
+}
+
+.contact-info, .description {
+    margin-bottom: 20px;
+}
+
+.contact-info h2, .description h2 {
+    color: #444;
+}
+
+.contact-info p, .description p {
+    color: #555;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
