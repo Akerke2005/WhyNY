@@ -1,0 +1,10 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Байланыс ақпаратын қосу
+    const contactInfo = document.getElementById("contact-info");
+    contactInfo.innerHTML = `
+        <p><strong>WhatsApp (HSK & TOEFL IBT):</strong> <a href="https://wa.me/87753829537" target="_blank">+7 775 382 95 37</a></p>
+        <p><strong>Байланыс нөмірі:</strong> <a href="tel:+77763466674">+7 776 346 66 74</a></p>
+        <p><strong>Email:</strong> <a href="mailto:kenzehanakerke@gmail.com">kenzehanakerke@gmail.com</a></p>
+        <p><strong>Мекенжай:</strong> Райымбек даңғылы 174</p>
+    `;
+});
